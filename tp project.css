@@ -149,13 +149,25 @@ margin-right: 60px;
 }
 
 @media all and (max-width: 700px) {
+
+    body {
+        margin: 0;
+        padding: 0;
+        font-family:  'Plus Jakarta Sans', 'sans-serif';
+        font-weight: 400;
+        line-height: 1.8;
+        font-size: 0.9375rem;
+        -webkit-text-size-adjust: 100%;
+        -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    }
+    
     .content2 {
         flex-direction: column;
         justify-content: space-between;
     }
     .img2 {
-        width: 293px;
-        margin: 20px;
+        width: 1rem;
+        
     }
     .content3 {
         flex-direction: column;
@@ -163,9 +175,73 @@ margin-right: 60px;
         margin: 20px;
         text-align: center;
     }
+    .whoarewe {
+        display: flex;
+        flex-direction: column;
+        margin-left: 8px;
+        margin-right: 8px;
+        gap: 0px;
+    }
+    .whoarewe h1 {
+        color: #18181B;
+        font-size: 20px;
+        font-weight: 400;
+        
+    }
     
-}
+    .whoarewe p {
+        color: #52525B;
+        font-size: 8px;
+        font-weight: 200;
+        line-height: 1.4;
+    }
 
+    .whoarewe ul {
+        color: #52525B;
+        font-size: 8px;
+        font-weight: 200;
+        line-height: 1.4;
+       position: relative;
+       
+    }
+    
+    
+    
+     .whoarewe li {
+        position: absolute;
+        left: 0;
+      border: 1px solid lightgray;
+        border-radius: 10px;
+        list-style-image: url("images/sparkle star 2.png");
+    list-style-position: inside;
+    list-style: none;
+        
+    }
+    
+    .saadli1 {
+    
+        padding: 2px 3px;
+        
+    }
+     .saadli2 {
+        margin-left: 77px;
+        padding: 2px 3px;
+     }
+     .saadli3 {
+        padding: 2px 3px;
+        margin-left: -38px;
+        margin-top: 10px;
+    }
+     .saadli4 {
+        margin-left: 21px;
+        margin-top: 10px;
+        padding: 2px 3px;
+    }
+     .saadli5 {
+        margin-left: -38px;
+        margin-top: 20px;
+        padding: 2px 3px;
+     }
 
 
 
